@@ -22,7 +22,7 @@ public class Player_controller : MonoBehaviour {
         else if (moveX < 0 && FaceRight)
             flip();
 
-        
+        /* add test line */
     }
 
     void flip ()
