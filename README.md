@@ -13,10 +13,11 @@ v.1.2 - 02.11.2021:
 - fix: stop rotation and moving when respaw;
 - fix: stop moving when dead;
 
-v.1.3 - 04.11.2021:
+v.1.3.1 - 04.11.2021:
 - fix: renew background after player's respawn;
-
-v.1.4 (todo)
 - fix: extra jumps in air;
 - player rotate in jump;
 - difficult level design.
+
+v.1.4 (todo)
+- rename project in Unity.
