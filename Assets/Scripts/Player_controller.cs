@@ -9,7 +9,7 @@ public class Player_controller : MonoBehaviour {
 
     void Start () {
         rb = GetComponent <Rigidbody2D> ();
-	}
+    }
 	
 	void Update () {
         float moveX = Input.GetAxis("Horizontal");
