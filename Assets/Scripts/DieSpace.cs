@@ -8,7 +8,7 @@ public class DieSpace : MonoBehaviour {
 
     void OnTriggerEnter2D (Collider2D other)
     {
-        if (other.tag == "Player")
+        if (other.tag == "Player" && other.isTrigger)
         {
             Player_controller.notDead = 0;
             tempBackGroundColor = Camera.main.backgroundColor;
@@ -21,7 +21,7 @@ public class DieSpace : MonoBehaviour {
     IEnumerator waiter(Collider2D other)
     {
         yield return new WaitForSeconds(1);
-
+    
         other.transform.rotation = Quaternion.Euler(0, 0, 0); /* rotate player to start position */
 
         /* turn Face to start position */
@@ -35,5 +35,6 @@ public class DieSpace : MonoBehaviour {
         other.transform.position = respawn.transform.position;
         Player_controller.rb.freezeRotation = false;
         Camera.main.backgroundColor = tempBackGroundColor;
+        
     }
 }
