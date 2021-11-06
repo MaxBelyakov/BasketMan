@@ -19,5 +19,5 @@ v.1.3.1 - 04.11.2021:
 - player rotate in jump;
 - difficult level design.
 
-v.1.4 (todo)
+06.11.2021:
 - rename project in Unity.
