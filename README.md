@@ -19,5 +19,9 @@ v.1.3.1 - 04.11.2021:
 - player rotate in jump;
 - difficult level design.
 
-06.11.2021:
-- rename project in Unity.
+v.1.4 - 07.01.2022:
+- clean code, add new comments;
+- improve freeze position and rotation;
+- add moving clouds skybox background;
+- dead changes skybox to red clouds;
+- improve restart logic.
